@@ -131,10 +131,16 @@ const EditorPage = () => {
                         codeRef.current = code;
                     }}
                 />
-                
+                <iframe className='chatbox'
+                src="https://www.chatbase.co/chatbot-iframe/1qGyIOxYWhsQpFb4ndVJN"
+                title="Chatbot"
+                width="100%"
+                style={{ height: '100%', minHeight: '700px', border: '0' }}
+            ></iframe>
             </div>
-            
+           
         </div>
+        
     );
 };
 
